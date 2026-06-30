@@ -1,0 +1,38 @@
+{
+  "name": "wx2maple",
+  "version": "0.11.11",
+  "description": "Convert Markdown to Maple-style WeChat H5 and publish to drafts",
+  "main": "dist/index.js",
+  "bin": {
+    "wx2maple": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "markdown",
+    "wechat",
+    "h5",
+    "converter"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "form-data": "^4.0.6",
+    "marked": "^16.2.1",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.35.2"
+  },
+  "type": "module",
+  "author": "MurphyLo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alufin/m2m.git"
+  }
+}
