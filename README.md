@@ -73,7 +73,7 @@ wx2maple publish input.md --cover input.png
 <table>
 <tr>
 <td align="center" width="50%">
-<img src="assets/1.png" alt="转换后的 H5 样式效果" width="400"/>
+<img src="assets/example.png" alt="转换后的 H5 样式效果" width="400"/>
 <br/>
 </td>
 </tr>
